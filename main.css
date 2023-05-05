@@ -1,0 +1,231 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #222;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 20px;
+}
+
+nav a {
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #F00;
+}
+
+/* Header Styles */
+header {
+    
+    background-image: url("./Bilder/bild5neu.png");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+header p {
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+header a {
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+header a:hover {
+    background-color: #FFF;
+    color: #F00;
+}
+
+/* Main Content Styles */
+main {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+form label {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+form input[type="submit"] {
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color: #FFF;
+    color: #F00;
+}
+
+#topLogo{
+    width: 3.7vw;
+    margin: 0%;
+    margin-right: 20%;
+}
+#topLogo2{
+    padding: 10px;
+}
+
+#services{
+    display: flex;
+    font-family: monospace;
+    font-size: 4vh;
+    font-weight: bold;
+}
+#service1{
+    width: 191%;
+}
+#service3{
+    width: 190%;
+}
+
+.serviceImg {
+    width: 70%;
+    transition: all 0.5s ease-in-out;
+}
+
+.serviceImg:hover {
+    width: 80%;
+}
+
+.serviceText{
+
+}
+
+/* Footer Styles */
+footer{
+    
+}
+
+
+
+
+/* hhhhiiidddeeennn*/
+
+
+.onscroll_hidden {
+    display: flex;
+    font-family: monospace;
+    font-size: 4vh;
+    font-weight: bold;
+    transform: translateX(-40%);
+    opacity: 0;
+    transition: opacity 2s, transform 1s;
+}
+
+/* CSS Class für Observer: visible Properties */
+.onscroll_visible {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+/* Nummer 2*/
+
+.aboutUs {
+    display: flex;
+    font-family: monospace;
+    font-size: 4vh;
+    font-weight: bold;
+    transform: translateX(-40%);
+    opacity: 0;
+    transition: opacity 2s, transform 1s;
+}
+
+
+
+
+
+
+
+
+

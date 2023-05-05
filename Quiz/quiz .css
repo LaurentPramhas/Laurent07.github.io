@@ -1,0 +1,24 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  h1, h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+  }
+  
+  #choices {
+	margin-top: 20px;
+  }
+  
+  button {
+	margin-top: 20px;
+  }
+  
+  #result {
+	margin-top: 30px;
+	font-weight: bold;
+  }
+  
